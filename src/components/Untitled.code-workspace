@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "my-app",
+			"path": "../.."
+		},
+		{
+			"name": "favicon",
+			"path": "../../../../../../Downloads/favicon"
+		}
+	],
+	"settings": {}
+}
