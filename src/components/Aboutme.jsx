@@ -13,8 +13,8 @@ function AboutMe() {
 				<h2 className="Abm2">Hi, there! It's Alejandro</h2>
 				<hr className="Line11" />
 				<p className="AboutMe">
-					I’m a qualified junior graphic designer with working experience in digital marketing and creative
-					content. Also, it’s been more than two years working on my skills to develop a better version of me
+					I’m a qualified Junior Graphic Designer with working experience in Digital Marketing and Creative
+					Content. Also, it’s been more than two years working on my skills to develop a better version of me
 					in this field.
 				</p>
 				<p className="AboutMe2">
