@@ -31,7 +31,7 @@ function footer() {
 				</a>
 			</button>
 			<button className="btn btn-d">
-				<a href="https://www.behance.net/alejandsanzro">
+				<a href="https://dribbble.com/Alejndrosanz">
 					<span className="IconD">{Dribble}</span>
 					<span className="UserD">/ alejndrosanz</span>
 				</a>
