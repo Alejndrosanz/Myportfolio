@@ -25,10 +25,9 @@ function P3() {
 				<hr className="Line4" />
 				<h1 className="Tittle3">Anxiety</h1>
 				<p className="Text3">
-					It's just more than a post trying to show the real truth of all the people who suffer anxiety around
-					the world. With this project, I wanted to express the scary of loving and hating yourself in just
-					about a second and making visible once more.<br />
-					<br /> -Mental Health-
+					Anxiety is more than just worrying. Anxiety is the restless nights of sleep, as you toss and turn.
+					It's your brain never being able to shut off. It's the thoughts you over-think before bedtime and
+					all of your worst fears become a reality in dreams and nightmares.
 				</p>
 			</div>
 		</div>

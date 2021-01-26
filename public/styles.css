@@ -47,7 +47,7 @@ body {
 	height: 43px;
 	left: 829px;
 	top: 100px;
-	cursor: url("Cursor.svg"), none;
+	cursor: default
 }
 
 .navbar2 {
@@ -56,7 +56,7 @@ body {
 	height: 43px;
 	left: 1004px;
 	top: 100px;
-	cursor: url("Cursor.svg"), none;
+	cursor: default
 }
 
 .navbar3 {
@@ -65,7 +65,7 @@ body {
 	height: 43px;
 	left: 1179px;
 	top: 100px;
-	cursor: url("Cursor.svg"), none;
+	cursor: default
 }
 
 .profilepic {
@@ -138,18 +138,18 @@ body {
 	left: 850px;
 	top: 505px;
 	border-radius: 54px;
-	cursor: url("Cursor.svg"), none;
+	cursor: default
 }
 
 a {
-	cursor: url("Cursor.svg"), none;
+	cursor: default
 	width: 200px;
 	height: 103px;
 }
 
 .DM:hover {
 	-webkit-animation: play 2s ease-in infinite;
-	cursor: url("Cursor.svg"), none;
+	cursor: default
 }
 
 @-webkit-keyframes play {
@@ -399,6 +399,7 @@ a {
 	left: 224px;
 	top: 1145px;
 	transition: 1s ease-in-out;
+	cursor: default;
 }
 
 .P1:hover {
@@ -464,7 +465,7 @@ a {
 	left: 680px;
 	top: 1860px;
 	transition: 1s ease-in-out;
-	cursor: url("Cursor.svg"), none;
+	cursor: default;
 	background: no-repeat;
 }
 
@@ -534,7 +535,7 @@ a {
 	left: 275px;
 	top: 2530px;
 	transition: 1s ease-in-out;
-	cursor: url("Cursor.svg"), none;
+	cursor: default;
 }
 
 .P3:hover {
@@ -602,7 +603,7 @@ a {
 	left: 735px;
 	top: 3360px;
 	transition: 1s ease-in-out;
-	cursor: url("Cursor.svg"), none;
+	cursor: default;
 }
 
 .P4:hover {
@@ -668,7 +669,7 @@ a {
 	left: 250px;
 	top: 4145px;
 	transition: 1s ease-in-out;
-	cursor: url("Cursor.svg"), none;
+	cursor: default;
 }
 
 .P5:hover {
@@ -744,7 +745,7 @@ a {
 	left: 700px;
 	top: 4875px;
 	transition: 1s ease-in-out;
-	cursor: url("Cursor.svg"), none;
+	cursor: default;
 }
 
 .P6:hover {
@@ -1539,7 +1540,7 @@ a {
 
 .CM:hover {
 	-webkit-animation: play 2s ease-in infinite;
-	cursor: url("Cursor.svg"), none;
+	cursor: default;
 }
 
 @-webkit-keyframes play {
@@ -1578,7 +1579,7 @@ a {
 
 .btn {
 	border-radius: 8px;
-	cursor: url("Cursor.svg"), none;
+	cursor: default;
 	color: #fff;
 }
 
