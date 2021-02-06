@@ -47,7 +47,7 @@ body {
 	height: 43px;
 	left: 829px;
 	top: 100px;
-	cursor: default
+	cursor: pointer;
 }
 
 .navbar2 {
@@ -56,7 +56,7 @@ body {
 	height: 43px;
 	left: 1004px;
 	top: 100px;
-	cursor: default
+	cursor: pointer;
 }
 
 .navbar3 {
@@ -65,7 +65,7 @@ body {
 	height: 43px;
 	left: 1179px;
 	top: 100px;
-	cursor: default
+	cursor: pointer;
 }
 
 .profilepic {
@@ -399,7 +399,7 @@ a {
 	left: 224px;
 	top: 1145px;
 	transition: 1s ease-in-out;
-	cursor: default;
+	cursor: pointer;
 }
 
 .P1:hover {
@@ -427,7 +427,7 @@ a {
 	position: absolute;
 	width: 85px;
 	height: 1px;
-	left: 990px;
+	left: 960px;
 	top: 1267px;
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
 		linear-gradient(101deg, #08f760, #1085f9);
@@ -465,7 +465,7 @@ a {
 	left: 680px;
 	top: 1860px;
 	transition: 1s ease-in-out;
-	cursor: default;
+	cursor: pointer;
 	background: no-repeat;
 }
 
@@ -482,8 +482,8 @@ a {
 	position: absolute;
 	width: 85px;
 	height: 1px;
-	left: 429px;
-	top: 1953px;
+	left: 385px;
+	top: 1956px;
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
 		linear-gradient(101deg, #08f760, #1085f9);
 	border-color: transparent;
@@ -535,7 +535,7 @@ a {
 	left: 275px;
 	top: 2530px;
 	transition: 1s ease-in-out;
-	cursor: default;
+	cursor: pointer;
 }
 
 .P3:hover {
@@ -550,8 +550,8 @@ a {
 	position: absolute;
 	width: 85px;
 	height: 1px;
-	left: 990px;
-	top: 2736px;
+	left: 920px;
+	top: 2738px;
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
 		linear-gradient(101deg, #08f760, #1085f9);
 	border-color: transparent;
@@ -560,9 +560,9 @@ a {
 
 .Tittle3 {
 	position: absolute;
-	width: 132px;
+	width: 210px;
 	height: 54px;
-	left: 1009px;
+	left: 970px;
 	top: 2697px;
 	font-family: Encode Sans;
 	font-style: normal;
@@ -603,7 +603,7 @@ a {
 	left: 735px;
 	top: 3360px;
 	transition: 1s ease-in-out;
-	cursor: default;
+	cursor: pointer;
 }
 
 .P4:hover {
@@ -616,7 +616,7 @@ a {
 	position: absolute;
 	width: 85px;
 	height: 1px;
-	left: 403px;
+	left: 390px;
 	top: 3542px;
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
 		linear-gradient(101deg, #08f760, #1085f9);
@@ -669,7 +669,7 @@ a {
 	left: 250px;
 	top: 4145px;
 	transition: 1s ease-in-out;
-	cursor: default;
+	cursor: pointer;
 }
 
 .P5:hover {
@@ -682,8 +682,8 @@ a {
 	position: absolute;
 	width: 85px;
 	height: 1px;
-	left: 990px;
-	top: 4282px;
+	left: 975px;
+	top: 4284px;
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
 		linear-gradient(101deg, #08f760, #1085f9);
 	border-color: transparent;
@@ -745,7 +745,7 @@ a {
 	left: 700px;
 	top: 4875px;
 	transition: 1s ease-in-out;
-	cursor: default;
+	cursor: pointer;
 }
 
 .P6:hover {
@@ -758,8 +758,8 @@ a {
 	position: absolute;
 	width: 85px;
 	height: 1px;
-	left: 375px;
-	top: 4973px;
+	left: 400px;
+	top: 4976px;
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
 		linear-gradient(101deg, #08f760, #1085f9);
 	border-color: transparent;

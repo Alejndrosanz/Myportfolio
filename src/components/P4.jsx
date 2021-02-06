@@ -21,7 +21,7 @@ function P4() {
 			</div>
 			<div>
 				<hr className="Line5" />
-				<h1 className="Tittle4">EMOTIONS</h1>
+				<h1 className="Tittle4">Art Work</h1>
 				<p className="Text4">
 					No aspect of our mental life is more important to the quality and meaning of our existence than the
 					emotions. They are what make life worth living and sometimes worth ending.

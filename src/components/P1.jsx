@@ -29,7 +29,7 @@ function P1() {
 
 				<div>
 					<hr className="Line2" />
-					<h1 className="Tittle1">M*art</h1>
+					<h1 className="Tittle1">Logo Design</h1>
 					<p className="Text1">
 						Mart logo was created based on the Greek letter µ as the main point, following by the biggest
 						passion of my client which is the art. My client is greek and one of her main thoughts were

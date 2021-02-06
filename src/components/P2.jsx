@@ -25,7 +25,7 @@ function P2() {
 
 			<div>
 				<hr className="Line3" />
-				<h1 className="Tittle2">V.E.C., Car Revolution</h1>
+				<h1 className="Tittle2">Branding</h1>
 				<p className="Text2">
 					I created this brand as my final work in my studies. I was trying to make a premium brand of cars
 					that could offer more than a luxury brand can do nowadays. Furthermore, I made this logo from the

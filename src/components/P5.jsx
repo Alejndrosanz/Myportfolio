@@ -24,7 +24,7 @@ function P5() {
 			</div>
 			<div>
 				<hr className="Line6" />
-				<h1 className="Tittle5">Coff*ee</h1>
+				<h1 className="Tittle5">Branding</h1>
 				<p className="Text5">
 					I worked on this project with the purpose of developing a new Coffee's shop branding in the
 					neighbourhood where I used to live in London. It stands on the idea of mixing individual Coffee
