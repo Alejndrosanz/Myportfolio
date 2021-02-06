@@ -27,10 +27,7 @@ function P2() {
 				<hr className="Line3" />
 				<h1 className="Tittle2">Branding</h1>
 				<p className="Text2">
-					I created this brand as my final work in my studies. I was trying to make a premium brand of cars
-					that could offer more than a luxury brand can do nowadays. Furthermore, I made this logo from the
-					inspiration of the Hispanic crown because this new brand it's supposed to be created in Spain, and I
-					really wanted to show that from the beginning until the end.
+				I created a new logo for a premium brand of luxury cars. This logo takes its inspiration from the Hispanic Crown as the manufacture is based in Spain.
 				</p>
 			</div>
 		</div>

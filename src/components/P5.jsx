@@ -26,9 +26,7 @@ function P5() {
 				<hr className="Line6" />
 				<h1 className="Tittle5">Branding</h1>
 				<p className="Text5">
-					I worked on this project with the purpose of developing a new Coffee's shop branding in the
-					neighbourhood where I used to live in London. It stands on the idea of mixing individual Coffee
-					businesses appearence with the efficient services of the big Companies that exist nowadays.
+				The challenge was to develop a new coffee shop’s branding in London. Its concept is utilizing the appearance of independent coffee shops with the efficiency of large brands.
 				</p>
 			</div>
 		</div>

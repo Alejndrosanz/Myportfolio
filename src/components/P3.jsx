@@ -23,11 +23,9 @@ function P3() {
 
 			<div>
 				<hr className="Line4" />
-				<h1 className="Tittle3">Enviromental Design</h1>
+				<h1 className="Tittle3">Environmental Design</h1>
 				<p className="Text3">
-					Anxiety is more than just worrying. Anxiety is the restless nights of sleep, as you toss and turn.
-					It's your brain never being able to shut off. It's the thoughts you over-think before bedtime and
-					all of your worst fears become a reality in dreams and nightmares.
+				Anxiety is the restless nights, the feeling of being lonely, the monster whose task is feeding itself with our worst fears. It's your brain never being able to shut off.
 				</p>
 			</div>
 		</div>

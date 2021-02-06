@@ -23,8 +23,7 @@ function P6() {
 				<hr className="Line7" />
 				<h1 className="Tittle6">Web Design</h1>
 				<p className="Text6">
-					Art is a kind of representation that is purposive in itself and, though without an end, nevertheless
-					promotes the cultivation of the mental powers for sociable communication.
+				Art is a representation that it has its purpose in itself without an end. Nevertheless promoting the cultivation of mental powers for sociable communication.
 				</p>
 			</div>
 		</div>

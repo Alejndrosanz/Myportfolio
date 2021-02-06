@@ -142,14 +142,14 @@ body {
 }
 
 a {
-	cursor: default
+	cursor: pointer;
 	width: 200px;
 	height: 103px;
 }
 
 .DM:hover {
 	-webkit-animation: play 2s ease-in infinite;
-	cursor: default
+	cursor: pointer;
 }
 
 @-webkit-keyframes play {
@@ -550,7 +550,7 @@ a {
 	position: absolute;
 	width: 85px;
 	height: 1px;
-	left: 920px;
+	left: 910px;
 	top: 2738px;
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
 		linear-gradient(101deg, #08f760, #1085f9);
@@ -560,9 +560,9 @@ a {
 
 .Tittle3 {
 	position: absolute;
-	width: 210px;
+	width: 220px;
 	height: 54px;
-	left: 970px;
+	left: 963px;
 	top: 2697px;
 	font-family: Encode Sans;
 	font-style: normal;
@@ -578,7 +578,7 @@ a {
 	width: 340px;
 	height: 119px;
 	left: 905px;
-	top: 2773px;
+	top: 2777px;
 	font-family: Encode Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -683,7 +683,7 @@ a {
 	width: 85px;
 	height: 1px;
 	left: 975px;
-	top: 4284px;
+	top: 4280px;
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
 		linear-gradient(101deg, #08f760, #1085f9);
 	border-color: transparent;
@@ -695,7 +695,7 @@ a {
 	width: 132px;
 	height: 54px;
 	left: 1009px;
-	top: 4244px;
+	top: 4240px;
 	font-family: Encode Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -710,7 +710,7 @@ a {
 	width: 340px;
 	height: 70px;
 	left: 905px;
-	top: 4310px;
+	top: 4320px;
 	font-family: Encode Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -1271,7 +1271,7 @@ a {
 	width: 400px;
 	height: 287px;
 	left: 800px;
-	top: 5893px;
+	top: 5885px;
 	font-family: Encode Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -1300,7 +1300,7 @@ a {
 	position: absolute;
 	width: 38px;
 	height: 1px;
-	left: 970px;
+	left: 982px;
 	top: 6095px;
 	border-radius: 3px;
 	transform: rotate(-180deg);
@@ -1313,7 +1313,7 @@ a {
 	position: absolute;
 	width: 239px;
 	height: 32px;
-	left: 875px;
+	left: 890px;
 	top: 6120px;
 	font-family: MuseoModerno;
 	font-style: normal;

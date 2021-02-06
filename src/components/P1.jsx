@@ -31,9 +31,7 @@ function P1() {
 					<hr className="Line2" />
 					<h1 className="Tittle1">Logo Design</h1>
 					<p className="Text1">
-						Mart logo was created based on the Greek letter µ as the main point, following by the biggest
-						passion of my client which is the art. My client is greek and one of her main thoughts were
-						trying to combine in a smooth way, Ancient and Modern art.
+					My client is greek and her passion is art. We used µ which is micro in greek, and also the first letter of her name. Allowing us to combine both ancient and modern art.
 					</p>
 				</div>
 			</div>
