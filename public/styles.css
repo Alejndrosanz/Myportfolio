@@ -347,7 +347,7 @@ a {
 	top: 1100px;
 }
 
-.P1 {
+.cheddar {
 	position: absolute;
 	width: 580px;
 	height: auto;
@@ -355,12 +355,6 @@ a {
 	top: 1155px;
 	transition: ease-in-out;
 	cursor: pointer;
-}
-
-.P1:hover {
-	-ms-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
 }
 
 .Tittle1 {
@@ -413,7 +407,7 @@ a {
 	top: 1815px;
 }
 
-.P2 {
+.vloyal {
 	position: absolute;
 	width: 580px;
 	height: 377px;
@@ -425,15 +419,6 @@ a {
 }
 .visibility {
   visibility: hidden;
-}
-
-.P2:hover {
-	-ms-transform: scale(1.1);
-	/* IE 9 */
-	-webkit-transform: scale(1.1);
-	/* Safari 3-8 */
-	transform: scale(1.1);
-	background: url(mockupanxiety.png);
 }
 
 .Line3 {
@@ -486,7 +471,7 @@ a {
 	top: 2504px;
 }
 
-.P3 {
+.supperclub {
 	position: absolute;
 	width: 580px;
 	height: auto;
@@ -494,14 +479,6 @@ a {
 	top: 2530px;
 	transition: ease-in-out;
 	cursor: pointer;
-}
-
-.P3:hover {
-	-ms-transform: scale(1.1);
-	/* IE 9 */
-	-webkit-transform: scale(1.1);
-	/* Safari 3-8 */
-	transform: scale(1.1);
 }
 
 .Line4 {
@@ -554,20 +531,21 @@ a {
 	top: 3309px;
 }
 
-.P4 {
+.craft {
 	position: absolute;
-	width: 350px;
+	width: 340px;
 	height: auto;
 	left: 805px;
 	top: 3360px;
 	transition: ease-in-out;
 	cursor: pointer;
 }
-
-.P4:hover {
-	-ms-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+@media (min-width: 641px) {
+  .craft:hover, .anxiety:hover, .cheddar:hover, .mart:hover, .craft:hover, .vloyal:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 }
 
 .Line5 {
@@ -620,7 +598,7 @@ a {
 	top: 4100px;
 }
 
-.P5 {
+.mart {
 	position: absolute;
 	width: 570px;
 	height: auto;
@@ -628,12 +606,6 @@ a {
 	top: 4145px;
 	transition: ease-in-out;
 	cursor: pointer;
-}
-
-.P5:hover {
-	-ms-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
 }
 
 .Line6 {
@@ -678,10 +650,6 @@ a {
 	color: #ffffff;
 }
 
-.text {
-	transition:;
-}
-
 .text:hover {
 	-ms-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
@@ -696,7 +664,7 @@ a {
 	top: 4802px;
 }
 
-.P6 {
+.anxiety {
 	position: absolute;
 	width: 350px;
 	height: auto;
@@ -704,12 +672,6 @@ a {
 	top: 4815px;
 	transition: ease-in-out;
 	cursor: pointer;
-}
-
-.P6:hover {
-	-ms-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
 }
 
 .Line7 {
@@ -779,7 +741,7 @@ a {
 		top: 850px;
 	}
 
-	.P1 {
+	.cheddar {
 		width: 414px;
 		left: 95px;
 		top: 877px;
@@ -813,7 +775,7 @@ a {
 		top: 1349px;
 	}
 
-	.P2 {
+	.vloyal {
 		width: 414px;
     height: auto;
 		left: 495px;
@@ -848,9 +810,8 @@ a {
 		top: 1819px;
 	}
 
-	.P3 {
+	.supperclub {
 		width: 414px;
-		left: 100px;
 		top: 1827px;
 	}
 
@@ -882,7 +843,7 @@ a {
 		top: 2399px;
 	}
 
-	.P4 {
+	.craft {
 		width: 220px;
 		left: 655px;
 		top: 2427px;
@@ -916,7 +877,7 @@ a {
 		top: 2950px;
 	}
 
-	.P5 {
+	.mart {
 		width: 414px;
 		left: 115px;
 		top: 2983px;
@@ -950,7 +911,7 @@ a {
 		top: 3450px;
 	}
 
-	.P6 {
+	.anxiety {
 		width: 235px;
 		left: 625px;
 		top: 3457px;
@@ -979,18 +940,27 @@ a {
 }
 
 @media (max-width: 641px) {
+  .R1, .R2, .R3, .R4, .R5, .R6 {
+    width: 40%;
+    height: auto;
+  }
+  .R1, .R3, .R5 {
+    left: 25%;
+  }
+  .R2, .R4, .R6 {
+    left: 40%;
+  }
+  .cheddar, .vloyal, .supperclub, .craft, .mart, .anxiety {
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
 	.R1 {
-		width: 147px;
-		height: 268px;
-		left: 20px;
 		top: 800px;
 	}
 
-	.P1 {
-		width: 346px;
-		height: 196px;
-		left: 30px;
-		top: 827px;
+	.cheddar {
+		top: 977px;
+    width: 85%;
 	}
 
 	.Tittle1 {
@@ -1006,17 +976,13 @@ a {
 	}
 
 	.R2 {
-		width: 147px;
-		height: 268px;
-		left: 230px;
-		top: 1225px;
+		top: 1325px;
 	}
 
-	.P2 {
-		width: 347px;
-		height: 209px;
-		left: 20px;
-		top: 1257px;
+	.vloyal {
+		width: 85%;
+    height: auto;
+		top: 1500px;
 	}
 
 	.Tittle2 {
@@ -1032,17 +998,13 @@ a {
 	}
 
 	.R3 {
-		width: 147px;
-		height: 268px;
-		left: 20px;
-		top: 1650px;
+		top: 1850px;
 	}
 
-	.P3 {
-		width: 240px;
-		height: 347px;
-		left: 65px;
-		top: 1667px;
+	.supperclub {
+		width: 80%;
+		height: auto;
+		top: 2047px;
 	}
 
 	.Tittle3 {
@@ -1058,17 +1020,13 @@ a {
 	}
 
 	.R4 {
-		width: 147px;
-		height: 268px;
-		left: 230px;
-		top: 2175px;
+		top: 2375px;
 	}
 
-	.P4 {
-		width: 285px;
-		height: 321px;
-		left: 70px;
-		top: 2197px;
+	.craft {
+		width: 50%;
+		height: auto;
+		top: 2577px;
 	}
 
 	.Tittle4 {
@@ -1084,17 +1042,12 @@ a {
 	}
 
 	.R5 {
-		width: 147px;
-		height: 268px;
-		left: 20px;
-		top: 2675px;
+		top: 2900px;
 	}
 
-	.P5 {
-		width: 340px;
-		height: 209px;
-		left: 35px;
-		top: 2693px;
+	.mart {
+		width: 60%;
+		top: 3093px;
 	}
 
 	.Tittle5 {
@@ -1110,17 +1063,13 @@ a {
 	}
 
 	.R6 {
-		width: 147px;
-		height: 268px;
-		left: 230px;
-		top: 3120px;
+		width: 40%;
+		top: 3425px;
 	}
 
-	.P6 {
-		width: 338px;
-		height: 226px;
-		left: 30px;
-		top: 3147px;
+	.anxiety {
+    width: 48%;
+		top: 3607px;
 	}
 
 	.Tittle6 {
@@ -1349,13 +1298,14 @@ a {
 @media (max-width: 641px) {
 	.Abm {
 		left: 95px;
-		top: 3525px;
+		top: 3850px;
+    width: 250px;
 		font-size: 22px;
 	}
 
 	.Line10 {
 		left: 275px;
-		top: 3575px;
+		top: 3900px;
 		width: 70px;
 		height: 1px;
 	}
@@ -1364,25 +1314,25 @@ a {
 		width: 298px;
 		height: 246.47px;
 		left: 45px;
-		top: 3985px;
+		top: 4320px;
 	}
 
 	.Abm2 {
 		left: 0px;
-		top: 3620px;
+		top: 3945px;
 		font-size: 18px;
 	}
 
 	.Line11 {
 		left: 175px;
-		top: 3675px;
+		top: 4015px;
 		width: 40px;
 		height: 1px;
 	}
 
 	.AboutMe {
 		left: 45px;
-		top: 3690px;
+		top: 4035px;
 		width: 300px;
 		height: 287px;
 		font-size: 12px;
@@ -1390,7 +1340,7 @@ a {
 
 	.AboutMe2 {
 		left: 45px;
-		top: 3780px;
+		top: 4105px;
 		width: 300px;
 		height: 287px;
 		font-size: 12px;
@@ -1398,7 +1348,7 @@ a {
 
 	.AboutMe3 {
 		left: 45px;
-		top: 3870px;
+		top: 4195px;
 		width: 300px;
 		height: 287px;
 		font-size: 12px;
@@ -1431,7 +1381,7 @@ a {
 	position: absolute;
 	height: 37px;
   left: 50%;
-  transform: translate(-50, -50);
+  transform: translate(-50%, -50%);
 	top: 7065px;
 	font-family: Encode Sans;
 	font-style: normal;
@@ -1547,13 +1497,13 @@ a {
 	font-size: 16px;
 	text-align: center;
 }
-
-.btn-i:hover {
+@media (min-width: 641px) {
+.btn-i:hover, .btn-b:hover, .btn-d:hover, .btn-l:hover {
 	-ms-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
-
+}
 .btn-b {
 	background-image: linear-gradient(101deg, #1085f9, #08f760);
 	position: absolute;
@@ -1567,12 +1517,6 @@ a {
 	font-weight: normal;
 	font-size: 16px;
 	text-align: center;
-}
-
-.btn-b:hover {
-	-ms-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
 }
 
 .btn-d {
@@ -1590,12 +1534,6 @@ a {
 	text-align: center;
 }
 
-.btn-d:hover {
-	-ms-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
-
 .btn-l {
 	background-image: linear-gradient(101deg, #1085f9, #08f760);
 	position: absolute;
@@ -1609,12 +1547,6 @@ a {
 	font-weight: normal;
 	font-size: 16px;
 	text-align: center;
-}
-
-.btn-l:hover {
-	-ms-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
 }
 
 .UserI {
@@ -1753,6 +1685,16 @@ a {
 }
 
 @media (max-width: 641px) {
+
+  .btn {
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+  .aboutme {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 8%;
+  }
 	.Essence2 {
 		display: none;
 	}
@@ -1768,16 +1710,19 @@ a {
 	.CM {
 		width: 168px;
 		height: 56px;
-		top: 4750px;
-		left: 115px;
+		top: 5030px;
+    transform: translate(-50%,-50%);
+		left: 50%;
 		font-size: 14px;
 	}
+  .btn-b:hover, .btn-i:hover. .btn-l:hover, .btn-d:hover {
+    display: none;
+  }
 
 	.btn-i {
 		width: 200.42px;
 		height: 55px;
-		top: 4390px;
-		left: 100px;
+		top: 4660px;
 		font-size: 18px;
 	}
 
@@ -1800,34 +1745,32 @@ a {
 	.btn-b {
 		width: 200.42px;
 		height: 55px;
-		top: 4475px;
-		left: 100px;
+		top: 4745px;
 		font-size: 18px;
 	}
 
 	.btn-d {
 		width: 200.42px;
 		height: 55px;
-		top: 4560px;
-		left: 100px;
+		top: 4830px;
 		font-size: 18px;
 	}
 
 	.btn-l {
 		width: 200.42px;
 		height: 55px;
-		top: 4645px;
-		left: 100px;
+		top: 4905px;
 		font-size: 18px;
 	}
 
 	.line9 {
-		top: 4900px;
+		top: 5100px;
 		height: 1px;
 	}
 
 	.Copyright {
-		top: 4910px;
+		top: 5130px;
 		font-size: 12px;
+    text-align: center;
 	}
 }

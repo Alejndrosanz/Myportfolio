@@ -10,14 +10,14 @@ function importAll(r) {
 }
 const images = importAll(require.context('./assets', false, /\.(png|jpe?g|svg)$/));
 
-function P3() {
+function Project3() {
 	return (
 		<div className="Anxiety">
 			<img className="R3" src={images['R3.png']} alt="rectangle3" />
 			<div className="MyComponent">
 				<SRLWrapper>
-					<img className="P3 visibility" src={images['cheddar2.png']} alt="Anxiety" />
-					<img className="P3" src={images['cheddar1.png']} alt="Anxiety" />
+					<img className="supperclub visibility" src={images['supperclub1.png']} alt="supperclub" />
+					<img className="supperclub" src={images['supperclub2.png']} alt="supperclub" />
 				</SRLWrapper>
 			</div>
 
@@ -32,4 +32,4 @@ function P3() {
 	);
 }
 
-export default P3;
+export default Project3;

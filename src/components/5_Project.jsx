@@ -10,20 +10,20 @@ function importAll(r) {
 }
 const images = importAll(require.context('./assets', false, /\.(png|jpe?g|svg)$/));
 
-function P5() {
+function Project5() {
 	return (
 		<div className="Espresso">
 			<img className="R5" src={images['R5.png']} alt="rectangle5" />
 			<div className="MyComponent">
 				<SRLWrapper>
-          <img className="P5 visibility" src={images['P61.jpg']} alt="ARTWORK" />
-          <img className="P5 visibility" src={images['P62.png']} alt="ARTWORK" />
-          <img className="P5" src={images['P6.png']} alt="ARTWORK" />
+          <img className="mart visibility" src={images['P61.jpg']} alt="MART" />
+          <img className="mart visibility" src={images['P62.png']} alt="MART" />
+          <img className="mart" src={images['Mart-mockup.png']} alt="MART" />
 				</SRLWrapper>
 			</div>
 			<div>
 				<hr className="Line6" />
-				<h1 className="Tittle5">Branding</h1>
+				<h1 className="Tittle5">M-art</h1>
 				<p className="Text5">
 				The challenge was to develop a new coffee shop’s branding in London. Its concept is utilizing the appearance of independent coffee shops with the efficiency of large brands.
 				</p>
@@ -32,4 +32,4 @@ function P5() {
 	);
 }
 
-export default P5;
+export default Project5;

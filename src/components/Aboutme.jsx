@@ -3,7 +3,7 @@ import Symbol from './assets/Symbol.png';
 
 function AboutMe() {
 	return (
-		<div>
+		<div className="aboutme">
 			<h1 className="Abm" id="Aboutme">
 				DISCOVER ME
 			</h1>

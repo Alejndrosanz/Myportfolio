@@ -1,32 +1,32 @@
 import React from 'react';
-import P1 from './P1';
-import P2 from './P2';
-import P3 from './P3';
-import P4 from './P4';
-import P5 from './P5';
-import P6 from './P6';
+import Project1 from './1_Project';
+import Project2 from './2_Project';
+import Project3 from './3_Project';
+import Project4 from './4_Project';
+import Project5 from './5_Project';
+import Project6 from './6_Project';
 import SimpleReactLightbox from 'simple-react-lightbox';
 
 function body() {
 	return (
 		<div className="Body">
 			<SimpleReactLightbox>
-				<P1 />
+				<Project1 />
 			</SimpleReactLightbox>
 			<SimpleReactLightbox>
-				<P2 />
+				<Project2 />
 			</SimpleReactLightbox>
 			<SimpleReactLightbox>
-				<P3 />
+				<Project3 />
 			</SimpleReactLightbox>
 			<SimpleReactLightbox>
-				<P4 />
+				<Project4 />
 			</SimpleReactLightbox>
 			<SimpleReactLightbox>
-				<P5 />
+				<Project5 />
 			</SimpleReactLightbox>
 			<SimpleReactLightbox>
-				<P6 />
+				<Project6 />
 			</SimpleReactLightbox>
 		</div>
 	);

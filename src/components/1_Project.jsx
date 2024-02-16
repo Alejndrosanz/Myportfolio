@@ -11,7 +11,7 @@ function importAll(r) {
 }
 const images = importAll(require.context('./assets', false, /\.(png|jpe?g|svg)$/));
 
-function P1() {
+function Project1() {
 	return (
 		<div>
       <div className="start-div">
@@ -23,14 +23,15 @@ function P1() {
 				<img className="R1" src={images['R1.png']} alt="rectangle1" />
 				<div className="MyComponent">
 					<SRLWrapper>
-            <img className="P1 visibility" src={images['supperclub1.png']} alt="V.E.C." />
-					  <img className="P1" src={images['supperclub2.png']} alt="V.E.C." />
+          <img className="cheddar visibility" src={images['cheddar3.png']} alt="cheddar" />
+            <img className="cheddar visibility" src={images['cheddar2.png']} alt="cheddar" />
+					  <img className="cheddar" src={images['cheddar1.png']} alt="cheddar" />
 					</SRLWrapper>
 				</div>
 
 				<div>
 					<hr className="Line2" />
-					<h1 className="Tittle1">Supper-club</h1>
+					<h1 className="Tittle1">Cheddar</h1>
 					<p className="Text1">
 					My client is greek and her passion is art. We used µ which is micro in greek, and also the first letter of her name. Allowing us to combine both ancient and modern art.
 					</p>
@@ -40,4 +41,4 @@ function P1() {
 	);
 }
 
-export default P1;
+export default Project1;
