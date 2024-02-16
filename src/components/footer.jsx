@@ -16,6 +16,7 @@ function footer() {
 	return (
 		<div>
 			<img className="Essence2" src={Essence} alt="Essence2" />
+      <div className="socials">
 			<img className="R7" src={R7} alt="Rectangle7" />
 			<img className="R8" src={R8} alt="Rectangle8" />
 			<button className="btn btn-l">
@@ -45,6 +46,7 @@ function footer() {
 			<button className="CM">
 				<a href="mailto:alex_sanz5@hotmail.com">Contact Me</a>
 			</button>
+      </div>
 			<hr className="line9" />
 			<h1 className="Copyright" id="Contact">
 				©Copyright {year}

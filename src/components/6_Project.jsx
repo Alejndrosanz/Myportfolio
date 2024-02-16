@@ -20,7 +20,7 @@ function Project6() {
 					<img className="anxiety" src={images['P3.png']} alt="Anxiety" />
 				</SRLWrapper>
 			</div>
-			<div>
+			<div className="anxiety-text">
 				<hr className="Line7" />
 				<h1 className="Tittle6">Anxiety</h1>
 				<p className="Text6">

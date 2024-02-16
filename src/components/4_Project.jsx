@@ -22,7 +22,7 @@ function Project4() {
 					<img className="craft" src={images['P5.png']} alt="CRAFT ESPRESSO" />
 				</SRLWrapper>
 			</div>
-			<div>
+			<div className='craft-text'>
 				<hr className="Line5" />
 				<h1 className="Tittle4">CRAFT Espresso</h1>
 				<p className="Text4">

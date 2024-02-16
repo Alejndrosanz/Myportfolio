@@ -338,20 +338,38 @@ a {
 		display: none;
 	}
 }
-
+/* .body {
+  transform: translate(-50%, -50%);
+  left: 50%;
+} */
+@media (min-width: 641px) {
+  .R1, .R3, .R5 {
+    left: 15%;
+  }
+  .R2, .R4, .R6 {
+    right: 15%;
+  }
+}
 .R1 {
-	position: absolute;
+  position: absolute;
 	width: 255px;
 	height: 466px;
-	left: 200px;
 	top: 1100px;
+}
+.cheddar, .supperclub, .mart {
+  left: 15%
+}
+.vloyal {
+  right: 8%;
+}
+.craft, .anxiety {
+  right: 16%;
 }
 
 .cheddar {
 	position: absolute;
 	width: 580px;
 	height: auto;
-	left: 224px;
 	top: 1155px;
 	transition: ease-in-out;
 	cursor: pointer;
@@ -403,7 +421,6 @@ a {
 	position: absolute;
 	width: 255px;
 	height: 456px;
-	left: 990px;
 	top: 1815px;
 }
 
@@ -411,7 +428,6 @@ a {
 	position: absolute;
 	width: 580px;
 	height: 377px;
-	left: 680px;
 	top: 1860px;
 	transition: ease-in-out;
 	cursor: pointer;
@@ -467,7 +483,6 @@ a {
 	position: absolute;
 	width: 240px;
 	height: 466px;
-	left: 200px;
 	top: 2504px;
 }
 
@@ -475,7 +490,6 @@ a {
 	position: absolute;
 	width: 580px;
 	height: auto;
-	left: 225px;
 	top: 2530px;
 	transition: ease-in-out;
 	cursor: pointer;
@@ -485,7 +499,7 @@ a {
 	position: absolute;
 	width: 85px;
 	height: 1px;
-	left: 910px;
+	left: 960px;
 	top: 2738px;
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
 		linear-gradient(101deg, #08f760, #1085f9);
@@ -527,21 +541,19 @@ a {
 	position: absolute;
 	width: 255px;
 	height: 510px;
-	left: 990px;
 	top: 3309px;
 }
 
 .craft {
 	position: absolute;
-	width: 340px;
+	width: 320px;
 	height: auto;
-	left: 805px;
 	top: 3360px;
 	transition: ease-in-out;
 	cursor: pointer;
 }
 @media (min-width: 641px) {
-  .craft:hover, .anxiety:hover, .cheddar:hover, .mart:hover, .craft:hover, .vloyal:hover {
+  .craft:hover, .anxiety:hover, .cheddar:hover, .mart:hover, .craft:hover, .vloyal:hover, .supperclub:hover {
     -ms-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -594,7 +606,6 @@ a {
 	position: absolute;
 	width: 255px;
 	height: 459px;
-	left: 200px;
 	top: 4100px;
 }
 
@@ -602,7 +613,6 @@ a {
 	position: absolute;
 	width: 570px;
 	height: auto;
-	left: 250px;
 	top: 4145px;
 	transition: ease-in-out;
 	cursor: pointer;
@@ -660,7 +670,6 @@ a {
 	position: absolute;
 	width: 255px;
 	height: 450px;
-	left: 990px;
 	top: 4802px;
 }
 
@@ -668,7 +677,6 @@ a {
 	position: absolute;
 	width: 350px;
 	height: auto;
-	left: 790px;
 	top: 4815px;
 	transition: ease-in-out;
 	cursor: pointer;
@@ -717,6 +725,10 @@ a {
 }
 
 @media (max-width: 1024px) and (min-width: 641px) {
+  .cheddar-text, .supperclub-text, .mart-text {
+    position: relative;
+    right: 15%;
+  }
 	.Start {
 		top: 571px;
 		font-size: 11px;
@@ -733,17 +745,23 @@ a {
 		width: 1px;
 		height: 100px;
 	}
-
+  .cheddar, .supperclub, .mart {
+    left: 10%
+  }
+  .vloyal {
+    right: 8%;
+  }
+  .craft, .anxiety {
+    right: 14%;
+  }
 	.R1 {
 		width: 160px;
 		height: 280px;
-		left: 80px;
 		top: 850px;
 	}
 
 	.cheddar {
 		width: 414px;
-		left: 95px;
 		top: 877px;
 	}
 
@@ -771,14 +789,12 @@ a {
 	.R2 {
 		width: 159px;
 		height: 280px;
-		left: 760px;
 		top: 1349px;
 	}
 
 	.vloyal {
 		width: 414px;
     height: auto;
-		left: 495px;
 		top: 1377px;
 	}
 
@@ -806,7 +822,6 @@ a {
 	.R3 {
 		width: 160px;
 		height: 280px;
-		left: 80px;
 		top: 1819px;
 	}
 
@@ -816,7 +831,7 @@ a {
 	}
 
 	.Tittle3 {
-		left: 697px;
+		left: 657px;
 		top: 1870px;
 		font-size: 14px;
 	}
@@ -839,19 +854,17 @@ a {
 	.R4 {
 		width: 160px;
 		height: 280px;
-		left: 760px;
-		top: 2399px;
+		top: 2249px;
 	}
 
 	.craft {
 		width: 220px;
-		left: 655px;
-		top: 2427px;
+		top: 2277px;
 	}
 
 	.Tittle4 {
 		left: 197px;
-		top: 2460px;
+		top: 2310px;
 		font-size: 14px;
 	}
 
@@ -859,12 +872,12 @@ a {
 		width: 40px;
 		height: 0.5px;
 		left: 300px;
-		top: 2489px;
+		top: 2339px;
 	}
 
 	.Text4 {
 		left: 119px;
-		top: 2530px;
+		top: 2380px;
 		font-size: 10px;
 		width: 300px;
 		height: 54px;
@@ -873,19 +886,17 @@ a {
 	.R5 {
 		width: 160px;
 		height: 280px;
-		left: 80px;
-		top: 2950px;
+		top: 2750px;
 	}
 
 	.mart {
-		width: 414px;
-		left: 115px;
-		top: 2983px;
+		width: 360px;
+		top: 2783px;
 	}
 
 	.Tittle5 {
 		left: 697px;
-		top: 3010px;
+		top: 2850px;
 		font-size: 14px;
 	}
 
@@ -893,12 +904,12 @@ a {
 		width: 40px;
 		height: 0.5px;
 		left: 717px;
-		top: 3039px;
+		top: 2879px;
 	}
 
 	.Text5 {
 		left: 610px;
-		top: 3080px;
+		top: 2920px;
 		font-size: 10px;
 		width: 300px;
 		height: 54px;
@@ -907,19 +918,17 @@ a {
 	.R6 {
 		width: 160px;
 		height: 280px;
-		left: 760px;
-		top: 3450px;
+		top: 3230px;
 	}
 
 	.anxiety {
 		width: 235px;
-		left: 625px;
-		top: 3457px;
+		top: 3257px;
 	}
 
 	.Tittle6 {
 		left: 197px;
-		top: 3510px;
+		top: 3300px;
 		font-size: 14px;
 	}
 
@@ -927,12 +936,12 @@ a {
 		width: 40px;
 		height: 0.5px;
 		left: 275px;
-		top: 3539px;
+		top: 3329px;
 	}
 
 	.Text6 {
 		left: 119px;
-		top: 3580px;
+		top: 3380px;
 		font-size: 10px;
 		width: 300px;
 		height: 54px;
@@ -1026,7 +1035,7 @@ a {
 	.craft {
 		width: 50%;
 		height: auto;
-		top: 2577px;
+		top: 2377px;
 	}
 
 	.Tittle4 {
@@ -1084,9 +1093,16 @@ a {
 		display: none;
 	}
 }
+@media (min-width: 1041px) {
+  .aboutme {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    right: 60%;
+  }
+}
 
 .Abm {
-	position: absolute;
+	position: relative;
 	width: 390px;
 	height: 60px;
 	left: 537px;
@@ -1224,6 +1240,12 @@ a {
 }
 
 @media (max-width: 1024px) and (min-width: 641px) {
+  .aboutme {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    right: 42%;
+    bottom: 90%;
+  }
 	.Abm {
 		left: 370px;
 		top: 3980px;
@@ -1296,16 +1318,21 @@ a {
 }
 
 @media (max-width: 641px) {
+  .aboutme {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    right: 100%;
+  }
 	.Abm {
 		left: 95px;
-		top: 3850px;
+		top: 3950px;
     width: 250px;
 		font-size: 22px;
 	}
 
 	.Line10 {
 		left: 275px;
-		top: 3900px;
+		top: 4000px;
 		width: 70px;
 		height: 1px;
 	}
@@ -1314,25 +1341,25 @@ a {
 		width: 298px;
 		height: 246.47px;
 		left: 45px;
-		top: 4320px;
+		top: 4420px;
 	}
 
 	.Abm2 {
-		left: 0px;
-		top: 3945px;
+    left: 10px;
+		top: 4045px;
 		font-size: 18px;
 	}
 
 	.Line11 {
 		left: 175px;
-		top: 4015px;
+		top: 4115px;
 		width: 40px;
 		height: 1px;
 	}
 
 	.AboutMe {
 		left: 45px;
-		top: 4035px;
+		top: 4135px;
 		width: 300px;
 		height: 287px;
 		font-size: 12px;
@@ -1340,7 +1367,7 @@ a {
 
 	.AboutMe2 {
 		left: 45px;
-		top: 4105px;
+		top: 4205px;
 		width: 300px;
 		height: 287px;
 		font-size: 12px;
@@ -1348,7 +1375,7 @@ a {
 
 	.AboutMe3 {
 		left: 45px;
-		top: 4195px;
+		top: 4295px;
 		width: 300px;
 		height: 287px;
 		font-size: 12px;
@@ -1382,7 +1409,7 @@ a {
 	height: 37px;
   left: 50%;
   transform: translate(-50%, -50%);
-	top: 7065px;
+	top: 7085px;
 	font-family: Encode Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -1599,36 +1626,36 @@ a {
 
 @media (max-width: 1024px) and (min-width: 641px) {
 	.Essence2 {
-		top: 4825px;
+		top: 4525px;
 	}
 
 	.R7 {
 		width: 262px;
 		height: 262px;
-		top: 4845px;
-		left: 176px;
+		top: 4545px;
+		left: 15%;
 	}
 
 	.R8 {
 		width: 239px;
 		height: 298px;
-		top: 4905px;
-		left: 283px;
+		top: 4605px;
+		left: 27%;
 	}
 
 	.CM {
 		width: 131px;
 		height: 45px;
-		top: 5090px;
-		left: 590px;
+		top: 4790px;
+		left: 65%;
 		font-size: 11px;
 	}
 
 	.btn-i {
 		width: 140.42px;
 		height: 40px;
-		top: 4910px;
-		left: 290px;
+		top: 4610px;
+		left: 28%;
 		font-size: 12px;
 	}
 
@@ -1651,35 +1678,35 @@ a {
 	.btn-b {
 		width: 140.42px;
 		height: 40px;
-		top: 4960px;
-		left: 290px;
+		top: 4660px;
+		left: 28%;
 		font-size: 12px;
 	}
 
 	.btn-d {
 		width: 140.42px;
 		height: 40px;
-		top: 5010px;
-		left: 290px;
+		top: 4710px;
+		left: 28%;
 		font-size: 12px;
 	}
 
 	.btn-l {
 		width: 140.42px;
 		height: 40px;
-		top: 5060px;
-		left: 290px;
+		top: 4760px;
+		left: 28%;
 		font-size: 12px;
 	}
 
 	.line9 {
-		top: 5310px;
+		top: 5010px;
 		height: 1px;
 	}
 
 	.Copyright {
     text-align: center;
-		top: 5320px;
+		top: 5040px;
 		font-size: 12px;
 	}
 }
@@ -1710,7 +1737,7 @@ a {
 	.CM {
 		width: 168px;
 		height: 56px;
-		top: 5030px;
+		top: 5130px;
     transform: translate(-50%,-50%);
 		left: 50%;
 		font-size: 14px;
@@ -1722,7 +1749,7 @@ a {
 	.btn-i {
 		width: 200.42px;
 		height: 55px;
-		top: 4660px;
+		top: 4760px;
 		font-size: 18px;
 	}
 
@@ -1745,31 +1772,31 @@ a {
 	.btn-b {
 		width: 200.42px;
 		height: 55px;
-		top: 4745px;
+		top: 4845px;
 		font-size: 18px;
 	}
 
 	.btn-d {
 		width: 200.42px;
 		height: 55px;
-		top: 4830px;
+		top: 4930px;
 		font-size: 18px;
 	}
 
 	.btn-l {
 		width: 200.42px;
 		height: 55px;
-		top: 4905px;
+		top: 5005px;
 		font-size: 18px;
 	}
 
 	.line9 {
-		top: 5100px;
+		top: 5200px;
 		height: 1px;
 	}
 
 	.Copyright {
-		top: 5130px;
+		top: 5230px;
 		font-size: 12px;
     text-align: center;
 	}

@@ -21,9 +21,9 @@ function Project3() {
 				</SRLWrapper>
 			</div>
 
-			<div>
+			<div className='supperclub-text'>
 				<hr className="Line4" />
-				<h1 className="Tittle3">Environmental Design</h1>
+				<h1 className="Tittle3">Supper-club</h1>
 				<p className="Text3">
 				Anxiety is the restless nights, the feeling of being lonely, the monster whose task is feeding itself with our worst fears. It's your brain never being able to shut off.
 				</p>

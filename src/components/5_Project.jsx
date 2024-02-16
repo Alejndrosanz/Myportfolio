@@ -21,7 +21,7 @@ function Project5() {
           <img className="mart" src={images['Mart-mockup.png']} alt="MART" />
 				</SRLWrapper>
 			</div>
-			<div>
+			<div className='mart-text'>
 				<hr className="Line6" />
 				<h1 className="Tittle5">M-art</h1>
 				<p className="Text5">

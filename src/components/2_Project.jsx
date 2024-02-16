@@ -23,7 +23,7 @@ function Project2() {
 				</SRLWrapper>
 			</div>
 
-			<div>
+			<div className='vloyal-text'>
 				<hr className="Line3" />
 				<h1 className="Tittle2">V-Loyal</h1>
 				<p className="Text2">

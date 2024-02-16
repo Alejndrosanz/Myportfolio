@@ -29,7 +29,7 @@ function Project1() {
 					</SRLWrapper>
 				</div>
 
-				<div>
+				<div className='cheddar-text'>
 					<hr className="Line2" />
 					<h1 className="Tittle1">Cheddar</h1>
 					<p className="Text1">
