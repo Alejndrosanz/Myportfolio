@@ -16,10 +16,9 @@ function P5() {
 			<img className="R5" src={images['R5.png']} alt="rectangle5" />
 			<div className="MyComponent">
 				<SRLWrapper>
-					<img className="P5" src={images['P5.png']} alt="CRAFT ESPRESSO" />
-					<img className="P5" src={images['P52.png']} alt="CRAFT ESPRESSO" />
-					<img className="P5" src={images['P53.png']} alt="CRAFT ESPRESSO" />
-					<img className="P5" src={images['P51.png']} alt="CRAFT ESPRESSO" />
+          <img className="P5 visibility" src={images['P61.jpg']} alt="ARTWORK" />
+          <img className="P5 visibility" src={images['P62.png']} alt="ARTWORK" />
+          <img className="P5" src={images['P6.png']} alt="ARTWORK" />
 				</SRLWrapper>
 			</div>
 			<div>

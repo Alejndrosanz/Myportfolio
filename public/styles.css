@@ -11,7 +11,7 @@ body {
 	position: absolute;
 	width: 132px;
 	height: 51px;
-	left: 135px;
+	left: 10%;
 	top: 65px;
 }
 
@@ -19,8 +19,8 @@ body {
 	position: absolute;
 	width: 673px;
 	height: 208px;
-	left: 765px;
-	top: 39px;
+	right: 0;
+	top: 100%;
 }
 
 .navbar {
@@ -32,6 +32,14 @@ body {
 	text-align: center;
 	color: #ffffff;
 }
+.navbar-inputs {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: auto;
+  right: 5%;
+  top: 100px;
+}
 
 .navbar:hover {
 	font-family: MuseoModerno;
@@ -41,53 +49,30 @@ body {
 	-webkit-background-clip: text;
 }
 
-.navbar1 {
-	position: absolute;
-	width: 138px;
-	height: 43px;
-	left: 829px;
-	top: 100px;
-	cursor: pointer;
-}
-
-.navbar2 {
-	position: absolute;
-	width: 138px;
-	height: 43px;
-	left: 1004px;
-	top: 100px;
-	cursor: pointer;
-}
-
-.navbar3 {
-	position: absolute;
-	width: 160px;
-	height: 43px;
-	left: 1179px;
-	top: 100px;
-	cursor: pointer;
-}
-
 .profilepic {
 	position: absolute;
-	width: 425px;
-	height: 425px;
-	left: 255px;
-	top: 180px;
+	width: 360px;
+	height: 360px;
+	left: 15%;
+	top: 248px;
 	transition: 1.5s;
 }
-
+@media (min-width: 641px) {
+.main-heading-div {
+  position: absolute;
+  right: 35%;
+}
 .profilepic:hover {
 	-ms-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
+}
 }
 
 .Ball {
 	position: absolute;
 	width: 8px;
 	height: 8px;
-	left: 850px;
 	top: 339px;
 }
 
@@ -95,7 +80,6 @@ body {
 	position: absolute;
 	width: 260px;
 	height: 153px;
-	left: 850px;
 	top: 250px;
 	font-style: normal;
 	font-weight: normal;
@@ -108,7 +92,6 @@ body {
 	position: absolute;
 	width: 255px;
 	height: 32px;
-	left: 850px;
 	top: 420px;
 	font-family: MuseoModerno;
 	font-style: normal;
@@ -135,7 +118,6 @@ body {
 	box-shadow: 2px 1000px 1px #000 inset;
 	width: 145px;
 	height: 48px;
-	left: 850px;
 	top: 505px;
 	border-radius: 54px;
 	cursor: default
@@ -144,11 +126,11 @@ body {
 a {
 	cursor: pointer;
 	width: 200px;
-	height: 103px;
+	height: auto;
 }
 
 .DM:hover {
-	-webkit-animation: play 2s ease-in infinite;
+	animation: play 2s ease-in infinite;
 	cursor: pointer;
 }
 
@@ -186,37 +168,27 @@ a {
 	}
 }
 
-@media (max-width: 1024px) and (min-width: 641px) {
+@media (max-width: 1024px) and (min-width: 642px) {
 	.profilepic {
-		width: 308px;
-		height: 308px;
-		left: 151px;
-		top: 164px;
+		width: 280px;
+		height: 280px;
+		top: 200px;
 	}
 
 	.logo {
 		width: 111px;
 		height: 43px;
-		left: 86px;
 		top: 53px;
 	}
+  .navbar-inputs {
+    a {
+      width: 150px;
+    }
+  }
 
 	.navbar {
 		font-size: 12px;
-		line-height: 50px;
 		top: 76px;
-	}
-
-	.navbar1 {
-		left: 530px;
-	}
-
-	.navbar2 {
-		left: 660px;
-	}
-
-	.navbar3 {
-		left: 782px;
 	}
 
 	.navbar:hover {
@@ -226,21 +198,18 @@ a {
 	.essence {
 		width: 479px;
 		height: 174px;
-		left: 510px;
 		top: 36px;
 	}
 
 	.Ball {
 		width: 6px;
 		height: 6px;
-		left: 600px;
 		top: 290px;
 	}
 
 	.Myp {
 		width: 175px;
 		height: 113px;
-		left: 600px;
 		top: 208px;
 		font-size: 42px;
 	}
@@ -248,7 +217,6 @@ a {
 	.MyN {
 		width: 191px;
 		height: 119px;
-		left: 604px;
 		top: 355px;
 		line-height: 29px;
 		font-size: 11px;
@@ -258,17 +226,16 @@ a {
 		width: 115px;
 		height: 36px;
 		font-size: 10px;
-		left: 604px;
 		top: 405px;
 	}
 }
 
 .Start {
 	position: absolute;
-	width: 113px;
+	width: auto;
 	height: 33px;
-	left: 663px;
-	top: 760px;
+  right: 48.4%;
+	top: 750px;
 	font-family: MuseoModerno;
 	font-style: normal;
 	font-weight: normal;
@@ -282,7 +249,7 @@ a {
 	position: absolute;
 	width: 15px;
 	height: 15px;
-	left: 713px;
+  right: 49.67%;
 	top: 807px;
 }
 
@@ -290,7 +257,7 @@ a {
 	position: absolute;
 	width: 2px;
 	height: 150px;
-	left: 719px;
+  right: 50%;
 	top: 850px;
 	border-radius: 3px;
 	transform: rotate(-180deg);
@@ -300,73 +267,61 @@ a {
 }
 
 @media (max-width: 641px) {
-	.navbar {
-		display: none;
-	}
-
-	.navbar1 {
-		display: none;
-	}
-
-	.navbar2 {
-		display: none;
-	}
-
-	.navbar3 {
+	.navbar-inputs, .navbar {
 		display: none;
 	}
 
 	.profilepic {
-		width: 300px;
-		height: 300px;
-		left: 50px;
-		top: 80px;
+		width: 240px;
+		height: 240px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+		top: 240px;
 		transition: none;
 	}
+ .main-heading-div {
+  display: flex;
+  justify-content: center;
+  }
 
 	.logo {
 		width: 98px;
 		height: 38px;
-		left: 40px;
 		top: 30px;
 	}
 
-	.profilepic:hover {
-		transform: none;
-	}
 
 	.essence {
-		width: 405px;
+		width: 100%;
 		height: 136px;
-		left: -10px;
-		top: 460px;
+		left: 50%;
+		top: 500px;
+    z-index: -1;
+    transform: translate(-50%, -50%);
 	}
 
-	.Ball {
-		width: 6px;
-		height: 6px;
-		left: 162px;
-		top: 480px;
+	.main-heading-div .Ball {
+		display: none;
 	}
 
 	.Myp {
-		left: 65px;
 		top: 410px;
+    width: auto;
 		font-size: 34px;
-		line-height: 175.5%;
-		text-align: center;
+    text-align: center;
 	}
 
 	.MyN {
-		left: 117px;
 		top: 545px;
 		font-size: 13px;
+    width: auto;
+    text-align: center;
 	}
 
-	.DM {
+	.main-heading-div .DM {
+    position: absolute;
 		width: 109px;
 		height: 38px;
-		left: 137px;
 		top: 610px;
 		font-size: 9px;
 	}
@@ -395,10 +350,10 @@ a {
 .P1 {
 	position: absolute;
 	width: 580px;
-	height: 367px;
+	height: auto;
 	left: 224px;
-	top: 1145px;
-	transition: 1s ease-in-out;
+	top: 1155px;
+	transition: ease-in-out;
 	cursor: pointer;
 }
 
@@ -460,13 +415,16 @@ a {
 
 .P2 {
 	position: absolute;
-	width: 590px;
+	width: 580px;
 	height: 377px;
 	left: 680px;
 	top: 1860px;
-	transition: 1s ease-in-out;
+	transition: ease-in-out;
 	cursor: pointer;
 	background: no-repeat;
+}
+.visibility {
+  visibility: hidden;
 }
 
 .P2:hover {
@@ -530,11 +488,11 @@ a {
 
 .P3 {
 	position: absolute;
-	width: 400px;
-	height: 583px;
-	left: 275px;
+	width: 580px;
+	height: auto;
+	left: 225px;
 	top: 2530px;
-	transition: 1s ease-in-out;
+	transition: ease-in-out;
 	cursor: pointer;
 }
 
@@ -598,11 +556,11 @@ a {
 
 .P4 {
 	position: absolute;
-	width: 425px;
-	height: 477px;
-	left: 735px;
+	width: 350px;
+	height: auto;
+	left: 805px;
 	top: 3360px;
-	transition: 1s ease-in-out;
+	transition: ease-in-out;
 	cursor: pointer;
 }
 
@@ -665,10 +623,10 @@ a {
 .P5 {
 	position: absolute;
 	width: 570px;
-	height: 371px;
+	height: auto;
 	left: 250px;
 	top: 4145px;
-	transition: 1s ease-in-out;
+	transition: ease-in-out;
 	cursor: pointer;
 }
 
@@ -721,7 +679,7 @@ a {
 }
 
 .text {
-	transition: 1s;
+	transition:;
 }
 
 .text:hover {
@@ -740,11 +698,11 @@ a {
 
 .P6 {
 	position: absolute;
-	width: 508px;
-	height: 339px;
-	left: 700px;
-	top: 4875px;
-	transition: 1s ease-in-out;
+	width: 350px;
+	height: auto;
+	left: 790px;
+	top: 4815px;
+	transition: ease-in-out;
 	cursor: pointer;
 }
 
@@ -798,7 +756,6 @@ a {
 
 @media (max-width: 1024px) and (min-width: 641px) {
 	.Start {
-		left: 420px;
 		top: 571px;
 		font-size: 11px;
 	}
@@ -806,12 +763,10 @@ a {
 	.Elipse {
 		width: 12px;
 		height: 12px;
-		left: 470px;
 		top: 621px;
 	}
 
 	.Line {
-		left: 475px;
 		top: 646px;
 		width: 1px;
 		height: 100px;
@@ -826,7 +781,6 @@ a {
 
 	.P1 {
 		width: 414px;
-		height: 234px;
 		left: 95px;
 		top: 877px;
 	}
@@ -861,7 +815,7 @@ a {
 
 	.P2 {
 		width: 414px;
-		height: 234px;
+    height: auto;
 		left: 495px;
 		top: 1377px;
 	}
@@ -895,9 +849,8 @@ a {
 	}
 
 	.P3 {
-		width: 277px;
-		height: 402px;
-		left: 165px;
+		width: 414px;
+		left: 100px;
 		top: 1827px;
 	}
 
@@ -930,9 +883,8 @@ a {
 	}
 
 	.P4 {
-		width: 308px;
-		height: 347px;
-		left: 555px;
+		width: 220px;
+		left: 655px;
 		top: 2427px;
 	}
 
@@ -966,7 +918,6 @@ a {
 
 	.P5 {
 		width: 414px;
-		height: 253px;
 		left: 115px;
 		top: 2983px;
 	}
@@ -1000,10 +951,9 @@ a {
 	}
 
 	.P6 {
-		width: 385px;
-		height: 257px;
-		left: 525px;
-		top: 3487px;
+		width: 235px;
+		left: 625px;
+		top: 3457px;
 	}
 
 	.Tittle6 {
@@ -1301,7 +1251,7 @@ a {
 	width: 38px;
 	height: 1px;
 	left: 982px;
-	top: 6095px;
+	top: 6115px;
 	border-radius: 3px;
 	transform: rotate(-180deg);
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
@@ -1314,7 +1264,7 @@ a {
 	width: 239px;
 	height: 32px;
 	left: 890px;
-	top: 6120px;
+	top: 6140px;
 	font-family: MuseoModerno;
 	font-style: normal;
 	font-weight: normal;
@@ -1465,9 +1415,10 @@ a {
 
 .line9 {
 	position: absolute;
-	width: 935px;
+	width: 80%;
 	height: 1px;
-	left: 262px;
+	transform: translate(-50, -50);
+  left: 10%;
 	top: 7050px;
 	border-radius: 3px;
 	transform: rotate(-180deg);
@@ -1478,22 +1429,21 @@ a {
 
 .Copyright {
 	position: absolute;
-	width: 177px;
 	height: 37px;
-	left: 631px;
+  left: 50%;
+  transform: translate(-50, -50);
 	top: 7065px;
 	font-family: Encode Sans;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 29px;
-	text-align: center;
 	color: #ffffff;
 }
 
 .Essence2 {
 	position: absolute;
-	width: 1440px;
+	width: 100%;
 	height: 464px;
 	left: 0px;
 	top: 6400px;
@@ -1717,10 +1667,7 @@ a {
 
 @media (max-width: 1024px) and (min-width: 641px) {
 	.Essence2 {
-		left: 0px;
 		top: 4825px;
-		width: 982px;
-		height: 322px;
 	}
 
 	.R7 {
@@ -1795,14 +1742,12 @@ a {
 
 	.line9 {
 		top: 5310px;
-		left: 70px;
-		width: 845px;
 		height: 1px;
 	}
 
 	.Copyright {
+    text-align: center;
 		top: 5320px;
-		left: 430px;
 		font-size: 12px;
 	}
 }
@@ -1878,14 +1823,11 @@ a {
 
 	.line9 {
 		top: 4900px;
-		left: 25px;
-		width: 345px;
 		height: 1px;
 	}
 
 	.Copyright {
 		top: 4910px;
-		left: 115px;
 		font-size: 12px;
 	}
 }

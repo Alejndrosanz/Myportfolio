@@ -16,8 +16,8 @@ function P3() {
 			<img className="R3" src={images['R3.png']} alt="rectangle3" />
 			<div className="MyComponent">
 				<SRLWrapper>
-					<img className="P3" src={images['P31.png']} alt="Anxiety" />
-					<img className="P3" src={images['P3.png']} alt="Anxiety" />
+					<img className="P3 visibility" src={images['cheddar2.png']} alt="Anxiety" />
+					<img className="P3" src={images['cheddar1.png']} alt="Anxiety" />
 				</SRLWrapper>
 			</div>
 

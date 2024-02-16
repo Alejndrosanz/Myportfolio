@@ -6,14 +6,16 @@ function heading() {
 	return (
 		<div id="wrapper">
 			<img className="profilepic" src={ProfilePic} alt="profilepic" />
-			<p className="Myp">
-				.My<br />Portfolio
-			</p>
-			<p className="MyN">Alejandro Sanz Rodriguez</p>
-			<img className="Ball" src={Ball} alt="Ball" />
-			<button className="DM">
-				<a href="index.html#Aboutme">Discover Me</a>
-			</button>
+      <div className="main-heading-div">
+			  <p className="Myp">
+			  	.My<br />Portfolio
+			  </p>
+			  <p className="MyN">Alejandro Sanz Rodriguez</p>
+			  <img className="Ball" src={Ball} alt="Ball" />
+			  <button className="DM">
+			  	<a href="index.html#Aboutme">Discover Me</a>
+			  </button>
+      </div>
 		</div>
 	);
 }

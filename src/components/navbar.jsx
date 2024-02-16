@@ -5,6 +5,7 @@ function navbar() {
 	return (
 		<div>
 			<img className="essence" src={Essence} alt="essenceHeading" />
+      <div className="navbar-inputs">
 			<a className="navbar navbar1" href="index.html#Aboutme">
 				About Me
 			</a>
@@ -14,6 +15,7 @@ function navbar() {
 			<a className="navbar navbar3" href="index.html#Contact">
 				Contact Me
 			</a>
+      </div>
 		</div>
 	);
 }

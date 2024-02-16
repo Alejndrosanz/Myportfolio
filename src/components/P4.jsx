@@ -16,7 +16,10 @@ function P4() {
 			<img className="R4" src={images['R4.png']} alt="rectangle4" />
 			<div className="MyComponent">
 				<SRLWrapper>
-					<img className="P4" src={images['P4.png']} alt="ARTWORK" />
+          <img className="P4 visibility" src={images['P52.png']} alt="CRAFT ESPRESSO" />
+					<img className="P4 visibility" src={images['P53.png']} alt="CRAFT ESPRESSO" />
+					<img className="P4 visibility" src={images['P51.png']} alt="CRAFT ESPRESSO" />
+					<img className="P4" src={images['P5.png']} alt="CRAFT ESPRESSO" />
 				</SRLWrapper>
 			</div>
 			<div>

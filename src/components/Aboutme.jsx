@@ -13,15 +13,13 @@ function AboutMe() {
 				<h2 className="Abm2">Hi, there! It's Alejandro</h2>
 				<hr className="Line11" />
 				<p className="AboutMe">
-				Fledgling Graphic Designer with working experience in Digital Marketing and Creative Content, working forward the last two years developing a vision of myself in this field.
+				Emerging Web Developer with two years of working experience in Creative Content and seven years in Retail.
 				</p>
 				<p className="AboutMe2">
-				The fascination of Web Development and Programming has been part of my life since an early age. I’ve
-					been getting introduced much more lately into this field until the point of creating my own website.
+				I have spent the last two years cultivating a vision for my career in this field, which was further solidified during a 10-week intensive web development bootcamp at LeWagon.
 				</p>
 				<p className="AboutMe3">
-					Nowadays I’ve been working on these two areas as a freelancer and also in the meantime studying
-					them. Challenging myself is who I am.
+        I am actively seeking for a Full Stack or Front-end Developer position within a company that fosters collaborative teamwork and proactive learning, allowing me to continue honing my skills and contributing to the team's success.
 				</p>
 				<hr className="Line12" />
 			<p className="Mysign">Alejandro Sanz Rodriguez</p>

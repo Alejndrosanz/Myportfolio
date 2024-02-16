@@ -16,16 +16,16 @@ function P2() {
 			<img className="R2" src={images['R2.png']} alt="rectangle2" />
 			<div className="MyComponent">
 				<SRLWrapper>
-					<img className="P2" src={images['P23.png']} alt="V.E.C." />
-					<img className="P2" src={images['P22.png']} alt="V.E.C." />
-					<img className="P2" src={images['P2.png']} alt="V.E.C." />
-					<img className="P2" src={images['P21.png']} alt="V.E.C." />
+          <img className="P2 visibility" src={images['vloyal2.png']} alt="Mart" />
+					<img className="P2 visibility" src={images['vloyal3.png']} alt="Mart" />
+					<img className="P2 visibility" src={images['vloyal4.png']} alt="Mart" />
+					<img className="P2" src={images['vloyal1.png']} alt="Mart" />
 				</SRLWrapper>
 			</div>
 
 			<div>
 				<hr className="Line3" />
-				<h1 className="Tittle2">Branding</h1>
+				<h1 className="Tittle2">V-Loyal</h1>
 				<p className="Text2">
 				I created a new logo for a premium brand of luxury cars. This logo takes its inspiration from the Hispanic Crown as the manufacture is based in Spain.
 				</p>
