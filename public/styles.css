@@ -357,7 +357,7 @@ a {
 	top: 1100px;
 }
 .cheddar, .supperclub, .mart {
-  left: 15%
+  left: 16%
 }
 .vloyal {
   right: 8%;
@@ -365,7 +365,10 @@ a {
 .craft, .anxiety {
   right: 16%;
 }
-
+.cheddar-text, .supperclub-text, .mart-text {
+  position: absolute;
+  right: 100%;
+}
 .cheddar {
 	position: absolute;
 	width: 580px;
@@ -611,7 +614,7 @@ a {
 
 .mart {
 	position: absolute;
-	width: 570px;
+	width: 510px;
 	height: auto;
 	top: 4145px;
 	transition: ease-in-out;
@@ -675,7 +678,7 @@ a {
 
 .anxiety {
 	position: absolute;
-	width: 350px;
+	width: 340px;
 	height: auto;
 	top: 4815px;
 	transition: ease-in-out;
@@ -725,8 +728,8 @@ a {
 }
 
 @media (max-width: 1024px) and (min-width: 641px) {
-  .cheddar-text, .supperclub-text, .mart-text {
-    position: relative;
+  .cheddar-text {
+    position: absolute;
     right: 15%;
   }
 	.Start {
@@ -950,7 +953,7 @@ a {
 
 @media (max-width: 641px) {
   .R1, .R2, .R3, .R4, .R5, .R6 {
-    width: 40%;
+    width: 35%;
     height: auto;
   }
   .R1, .R3, .R5 {
@@ -968,7 +971,7 @@ a {
 	}
 
 	.cheddar {
-		top: 977px;
+		top: 927px;
     width: 85%;
 	}
 
@@ -991,7 +994,7 @@ a {
 	.vloyal {
 		width: 85%;
     height: auto;
-		top: 1500px;
+		top: 1450px;
 	}
 
 	.Tittle2 {
@@ -1013,7 +1016,7 @@ a {
 	.supperclub {
 		width: 80%;
 		height: auto;
-		top: 2047px;
+		top: 1997px;
 	}
 
 	.Tittle3 {
@@ -1033,9 +1036,9 @@ a {
 	}
 
 	.craft {
-		width: 50%;
+		width: 45%;
 		height: auto;
-		top: 2377px;
+		top: 2527px;
 	}
 
 	.Tittle4 {
@@ -1056,7 +1059,7 @@ a {
 
 	.mart {
 		width: 60%;
-		top: 3093px;
+		top: 3043px;
 	}
 
 	.Tittle5 {
@@ -1318,20 +1321,15 @@ a {
 }
 
 @media (max-width: 641px) {
-  .aboutme {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    right: 100%;
-  }
 	.Abm {
-		left: 95px;
+		left: 80%;
 		top: 3950px;
     width: 250px;
 		font-size: 22px;
 	}
 
 	.Line10 {
-		left: 275px;
+		left: 150%;
 		top: 4000px;
 		width: 70px;
 		height: 1px;
@@ -1340,25 +1338,27 @@ a {
 	.Symbol {
 		width: 298px;
 		height: 246.47px;
-		left: 45px;
+		left: 60%;
 		top: 4420px;
 	}
 
 	.Abm2 {
-    left: 10px;
+    width: 180px;
+    height: auto;
+    left: 85%;
 		top: 4045px;
 		font-size: 18px;
 	}
 
 	.Line11 {
-		left: 175px;
+		left: 110%;
 		top: 4115px;
 		width: 40px;
 		height: 1px;
 	}
 
 	.AboutMe {
-		left: 45px;
+		left: 60%;
 		top: 4135px;
 		width: 300px;
 		height: 287px;
@@ -1366,7 +1366,7 @@ a {
 	}
 
 	.AboutMe2 {
-		left: 45px;
+		left: 60%;
 		top: 4205px;
 		width: 300px;
 		height: 287px;
@@ -1374,7 +1374,7 @@ a {
 	}
 
 	.AboutMe3 {
-		left: 45px;
+		left: 60%;
 		top: 4295px;
 		width: 300px;
 		height: 287px;

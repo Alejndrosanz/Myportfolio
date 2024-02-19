@@ -19,7 +19,6 @@ function Project1() {
 			<img className="Elipse" src={Elipse} alt="StartBall" />
 			<hr className="Line" id="Projects" />
       </div>
-			<div>
 				<img className="R1" src={images['R1.png']} alt="rectangle1" />
 				<div className="MyComponent">
 					<SRLWrapper>
@@ -29,13 +28,12 @@ function Project1() {
 					</SRLWrapper>
 				</div>
 
-				<div className='cheddar-text'>
-					<hr className="Line2" />
-					<h1 className="Tittle1">Cheddar</h1>
-					<p className="Text1">
-					My client is greek and her passion is art. We used µ which is micro in greek, and also the first letter of her name. Allowing us to combine both ancient and modern art.
-					</p>
-				</div>
+			<div className='cheddar-text'>
+			  <hr className="Line2" />
+			  <h1 className="Tittle1">Cheddar</h1>
+			  <p className="Text1">
+			  My client is greek and her passion is art. We used µ which is micro in greek, and also the first letter of her name. Allowing us to combine both ancient and modern art.
+			  </p>
 			</div>
 		</div>
 	);
