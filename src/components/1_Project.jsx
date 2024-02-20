@@ -32,8 +32,19 @@ function Project1() {
 			  <hr className="Line2" />
 			  <h1 className="Tittle1">Cheddar</h1>
 			  <p className="Text1">
-			  My client is greek and her passion is art. We used µ which is micro in greek, and also the first letter of her name. Allowing us to combine both ancient and modern art.
+        Cheddar was created to facilitate the user to search, find and apply for new jobs opportunities at once.<br/>
+			  Currently leading the front-end and UI development of the site.<br/><br />
+        <a href="https://www.cheddarjobs.com/#">cheddarjobs.com</a><br/>
+        <br/>
+        2023 - Present
 			  </p>
+        <div className='Tools1'>
+          <span className="tools">Ruby on rails</span>
+          <span className="tools">Javascript</span>
+          <span className="tools">CSS</span>
+          <span className="tools">SASS</span>
+          <span className="tools">Figma</span>
+        </div>
 			</div>
 		</div>
 	);

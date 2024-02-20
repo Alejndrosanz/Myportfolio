@@ -27,7 +27,12 @@ function Project2() {
 				<hr className="Line3" />
 				<h1 className="Tittle2">V-Loyal</h1>
 				<p className="Text2">
-				I created a new logo for a premium brand of luxury cars. This logo takes its inspiration from the Hispanic Crown as the manufacture is based in Spain.
+				VLoyal was created to turn paper loyalty cards into virtual loyalty cards storing them in one app, using a QR code scanner to app virtual stamps.<br/>
+        Managed the whole UI and Front-end development of the mobile app and collaborated on several Back-end features, including structuring the entire user journey and schema.<br/>
+        <br/>
+        <a href="https://vloyal-9cfecae07662.herokuapp.com/users/sign_in">vloyal.com</a>
+        <br/><br/>
+        2023
 				</p>
 			</div>
 		</div>

@@ -25,7 +25,10 @@ function Project5() {
 				<hr className="Line6" />
 				<h1 className="Tittle5">M-art</h1>
 				<p className="Text5">
-				The challenge was to develop a new coffee shop’s branding in London. Its concept is utilizing the appearance of independent coffee shops with the efficiency of large brands.
+        The client in question hails from Greece, where her ardor for the arts holds precedence. <br/>
+          In our creative endeavors, we drew upon the Greek letter "µ," representing "micro" in the Hellenic language, as well as serving as the initial letter of her name. This deliberate choice facilitated the seamless amalgamation of both classical and contemporary artistic influences.
+          <br /><br />
+          2021
 				</p>
 			</div>
 		</div>

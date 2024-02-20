@@ -344,10 +344,10 @@ a {
 } */
 @media (min-width: 641px) {
   .R1, .R3, .R5 {
-    left: 15%;
+    left: 10%;
   }
   .R2, .R4, .R6 {
-    right: 15%;
+    right: 10%;
   }
 }
 .R1 {
@@ -357,17 +357,25 @@ a {
 	top: 1100px;
 }
 .cheddar, .supperclub, .mart {
-  left: 16%
+  left: 11%
 }
 .vloyal {
-  right: 8%;
+  right: 4%;
 }
 .craft, .anxiety {
-  right: 16%;
+  right: 11%;
 }
+@media (min-width: 1030px) {
 .cheddar-text, .supperclub-text, .mart-text {
-  position: absolute;
-  right: 100%;
+  width: 30%;
+  position: relative;
+  left: calc(50% + (30vw / 2));
+}
+.vloyal-text, .craft-text, .anxiety-text {
+  position: relative;
+  left: 0%;
+  width: 30%;
+}
 }
 .cheddar {
 	position: absolute;
@@ -377,28 +385,30 @@ a {
 	transition: ease-in-out;
 	cursor: pointer;
 }
+.Tittle1, .Tittle2, .Tittle3, .Tittle4, .Tittle5, .Tittle6 {
+  width: auto;
+  height: auto;
+}
 
 .Tittle1 {
-	position: absolute;
-	width: 132px;
-	height: 54px;
-	left: 1009px;
-	top: 1227px;
-	font-family: Encode Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 23px;
-	line-height: 37px;
-	text-align: center;
-	color: #ffffff;
+  position: absolute;
+  left: 117px;
+  top: 1214px;
+  font-family: Encode Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 37px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .Line2 {
 	position: absolute;
 	width: 85px;
 	height: 1px;
-	left: 960px;
-	top: 1267px;
+  left: 160px;
+  top: 1255px;
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
 		linear-gradient(101deg, #08f760, #1085f9);
 	border-color: transparent;
@@ -409,7 +419,6 @@ a {
 	position: absolute;
 	width: 340px;
 	height: 74px;
-	left: 905px;
 	top: 1303px;
 	font-family: Encode Sans;
 	font-style: normal;
@@ -444,8 +453,8 @@ a {
 	position: absolute;
 	width: 85px;
 	height: 1px;
-	left: 385px;
-	top: 1956px;
+	left: 383px;
+	top: 1936px;
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
 		linear-gradient(101deg, #08f760, #1085f9);
 	border-color: transparent;
@@ -454,10 +463,9 @@ a {
 
 .Tittle2 {
 	position: absolute;
-	width: 340px;
-	height: 54px;
-	left: 200px;
-	top: 1915px;
+  left: 325px;
+  width: 79px;
+	top: 1895px;
 	font-family: Encode Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -470,9 +478,9 @@ a {
 .Text2 {
 	position: absolute;
 	width: 340px;
-	height: 118px;
+	height: auto;
 	left: 200px;
-	top: 1994px;
+	top: 1974px;
 	font-family: Encode Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -493,7 +501,7 @@ a {
 	position: absolute;
 	width: 580px;
 	height: auto;
-	top: 2530px;
+	top: 2580px;
 	transition: ease-in-out;
 	cursor: pointer;
 }
@@ -502,8 +510,8 @@ a {
 	position: absolute;
 	width: 85px;
 	height: 1px;
-	left: 960px;
-	top: 2738px;
+	left: 160px;
+	top: 2658px;
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
 		linear-gradient(101deg, #08f760, #1085f9);
 	border-color: transparent;
@@ -512,10 +520,8 @@ a {
 
 .Tittle3 {
 	position: absolute;
-	width: 220px;
-	height: 54px;
-	left: 963px;
-	top: 2697px;
+	left: 105px;
+	top: 2617px;
 	font-family: Encode Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -529,8 +535,7 @@ a {
 	position: absolute;
 	width: 340px;
 	height: 119px;
-	left: 905px;
-	top: 2777px;
+	top: 2687px;
 	font-family: Encode Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -568,7 +573,7 @@ a {
 	width: 85px;
 	height: 1px;
 	left: 390px;
-	top: 3542px;
+	top: 3442px;
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
 		linear-gradient(101deg, #08f760, #1085f9);
 	border-color: transparent;
@@ -577,10 +582,9 @@ a {
 
 .Tittle4 {
 	position: absolute;
-	width: 170px;
-	height: 54px;
 	left: 285px;
-	top: 3502px;
+	top: 3402px;
+  width: 162px;
 	font-family: Encode Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -595,7 +599,7 @@ a {
 	width: 340px;
 	height: 109px;
 	left: 202px;
-	top: 3587px;
+	top: 3487px;
 	font-family: Encode Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -614,7 +618,7 @@ a {
 
 .mart {
 	position: absolute;
-	width: 510px;
+	width: 500px;
 	height: auto;
 	top: 4145px;
 	transition: ease-in-out;
@@ -625,8 +629,8 @@ a {
 	position: absolute;
 	width: 85px;
 	height: 1px;
-	left: 975px;
-	top: 4280px;
+	left: 160px;
+	top: 4200px;
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
 		linear-gradient(101deg, #08f760, #1085f9);
 	border-color: transparent;
@@ -635,10 +639,8 @@ a {
 
 .Tittle5 {
 	position: absolute;
-	width: 132px;
-	height: 54px;
-	left: 1009px;
-	top: 4240px;
+	left: 140px;
+	top: 4160px;
 	font-family: Encode Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -652,8 +654,7 @@ a {
 	position: absolute;
 	width: 340px;
 	height: 70px;
-	left: 905px;
-	top: 4320px;
+	top: 4240px;
 	font-family: Encode Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -689,7 +690,7 @@ a {
 	position: absolute;
 	width: 85px;
 	height: 1px;
-	left: 400px;
+	left: 380px;
 	top: 4976px;
 	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
 		linear-gradient(101deg, #08f760, #1085f9);
@@ -699,9 +700,7 @@ a {
 
 .Tittle6 {
 	position: absolute;
-	width: 132px;
-	height: 54px;
-	left: 304px;
+	left: 335px;
 	top: 4936px;
 	font-family: Encode Sans;
 	font-style: normal;
@@ -728,10 +727,12 @@ a {
 }
 
 @media (max-width: 1024px) and (min-width: 641px) {
-  .cheddar-text {
-    position: absolute;
-    right: 15%;
+  .cheddar-text, .supperclub-text, .mart-text {
+    width: 30%;
+    position: relative;
+    left: 60%;
   }
+
 	.Start {
 		top: 571px;
 		font-size: 11px;
@@ -769,21 +770,28 @@ a {
 	}
 
 	.Tittle1 {
-		left: 697px;
+    position: absolute;
 		top: 890px;
 		font-size: 14px;
 	}
+  .Text1 {
+		top: 965px;
+		font-size: 10px;
+		width: 300px;
+		height: 54px;
+	}
 
 	.Line2 {
+    position: absolute;
 		width: 40px;
 		height: 0.5px;
-		left: 700px;
 		top: 919px;
 	}
 
 	.Text2 {
-		left: 119px;
+    position: absolute;
 		top: 1431px;
+    left: 100px;
 		font-size: 10px;
 		width: 300px;
 		height: 54px;
@@ -802,7 +810,8 @@ a {
 	}
 
 	.Tittle2 {
-		left: 107px;
+		width: 46px;
+    left: 230px;
 		top: 1370px;
 		font-size: 14px;
 	}
@@ -810,16 +819,8 @@ a {
 	.Line3 {
 		width: 40px;
 		height: 0.5px;
-		left: 290px;
+		left: 267px;
 		top: 1399px;
-	}
-
-	.Text1 {
-		left: 610px;
-		top: 965px;
-		font-size: 10px;
-		width: 300px;
-		height: 54px;
 	}
 
 	.R3 {
@@ -834,21 +835,18 @@ a {
 	}
 
 	.Tittle3 {
-		left: 657px;
-		top: 1870px;
+		top: 1770px;
 		font-size: 14px;
 	}
 
 	.Line4 {
 		width: 40px;
 		height: 0.5px;
-		left: 717px;
-		top: 1899px;
+		top: 1799px;
 	}
 
 	.Text3 {
-		left: 610px;
-		top: 1930px;
+		top: 1830px;
 		font-size: 10px;
 		width: 300px;
 		height: 54px;
@@ -866,7 +864,7 @@ a {
 	}
 
 	.Tittle4 {
-		left: 197px;
+		left: 175px;
 		top: 2310px;
 		font-size: 14px;
 	}
@@ -874,12 +872,12 @@ a {
 	.Line5 {
 		width: 40px;
 		height: 0.5px;
-		left: 300px;
+		left: 280px;
 		top: 2339px;
 	}
 
 	.Text4 {
-		left: 119px;
+		left: 100px;
 		top: 2380px;
 		font-size: 10px;
 		width: 300px;
@@ -898,21 +896,18 @@ a {
 	}
 
 	.Tittle5 {
-		left: 697px;
-		top: 2850px;
+		top: 2730px;
 		font-size: 14px;
 	}
 
 	.Line6 {
 		width: 40px;
 		height: 0.5px;
-		left: 717px;
-		top: 2879px;
+		top: 2759px;
 	}
 
 	.Text5 {
-		left: 610px;
-		top: 2920px;
+		top: 2800px;
 		font-size: 10px;
 		width: 300px;
 		height: 54px;
@@ -930,7 +925,7 @@ a {
 	}
 
 	.Tittle6 {
-		left: 197px;
+		left: 235px;
 		top: 3300px;
 		font-size: 14px;
 	}
@@ -938,12 +933,12 @@ a {
 	.Line7 {
 		width: 40px;
 		height: 0.5px;
-		left: 275px;
+		left: 265px;
 		top: 3329px;
 	}
 
 	.Text6 {
-		left: 119px;
+		left: 100px;
 		top: 3380px;
 		font-size: 10px;
 		width: 300px;
@@ -975,18 +970,6 @@ a {
     width: 85%;
 	}
 
-	.Tittle1 {
-		display: none;
-	}
-
-	.Line2 {
-		display: none;
-	}
-
-	.Text2 {
-		display: none;
-	}
-
 	.R2 {
 		top: 1325px;
 	}
@@ -995,18 +978,6 @@ a {
 		width: 85%;
     height: auto;
 		top: 1450px;
-	}
-
-	.Tittle2 {
-		display: none;
-	}
-
-	.Line3 {
-		display: none;
-	}
-
-	.Text1 {
-		display: none;
 	}
 
 	.R3 {
@@ -1019,17 +990,12 @@ a {
 		top: 1997px;
 	}
 
-	.Tittle3 {
-		display: none;
-	}
-
-	.Line4 {
-		display: none;
-	}
-
-	.Text3 {
-		display: none;
-	}
+	.Tittle1, .Tittle2, .Tittle3, .Tittle4, .Tittle5, .Tittle6,
+  .Line2, .Line3, .Line4, .Line5, .Line6, .Line7,
+  .Text1, .Text2, .Text3, .Text4, .Text5, .Text6,
+  .Tools1, .Tools2, .Tools3, .Tools4, .Tools5, .Tools6 {
+    display: none;
+  }
 
 	.R4 {
 		top: 2375px;
@@ -1041,18 +1007,6 @@ a {
 		top: 2527px;
 	}
 
-	.Tittle4 {
-		display: none;
-	}
-
-	.Line5 {
-		display: none;
-	}
-
-	.Text4 {
-		display: none;
-	}
-
 	.R5 {
 		top: 2900px;
 	}
@@ -1061,19 +1015,6 @@ a {
 		width: 60%;
 		top: 3043px;
 	}
-
-	.Tittle5 {
-		display: none;
-	}
-
-	.Line6 {
-		display: none;
-	}
-
-	.Text5 {
-		display: none;
-	}
-
 	.R6 {
 		width: 40%;
 		top: 3425px;
@@ -1084,17 +1025,9 @@ a {
 		top: 3607px;
 	}
 
-	.Tittle6 {
-		display: none;
-	}
-
-	.Line7 {
-		display: none;
-	}
-
-	.Text6 {
-		display: none;
-	}
+  .Tools1, .Tools2, .Tools3, .Tools4, .Tools5, .Tools6 {
+    display: none;
+  }
 }
 @media (min-width: 1041px) {
   .aboutme {
@@ -1321,6 +1254,7 @@ a {
 }
 
 @media (max-width: 641px) {
+
 	.Abm {
 		left: 80%;
 		top: 3950px;

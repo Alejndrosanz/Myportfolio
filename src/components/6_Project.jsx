@@ -24,7 +24,10 @@ function Project6() {
 				<hr className="Line7" />
 				<h1 className="Tittle6">Anxiety</h1>
 				<p className="Text6">
-				Art is a representation that it has its purpose in itself without an end. Nevertheless promoting the cultivation of mental powers for sociable communication.
+        In this graphic design project, the focus is on creating an impactful advertisement aimed at raising awareness about anxiety disorders and breaking the stigma surrounding mental health. <br/>
+        The overarching goal is to foster understanding, empathy, and support for those experiencing anxiety while encouraging individuals to seek help when needed.
+          <br /><br />
+          2020
 				</p>
 			</div>
 		</div>

@@ -26,8 +26,11 @@ function Project4() {
 				<hr className="Line5" />
 				<h1 className="Tittle4">CRAFT Espresso</h1>
 				<p className="Text4">
-					No aspect of our mental life is more important to the quality and meaning of our existence than the
-					emotions. They are what make life worth living and sometimes worth ending.
+          The task presented was the strategic development of branding for a novel coffee emporium situated within the bustling urban landscape of London. The core concept entailed the fusion of the visual aesthetics of this crafting.
+          <br />
+          Its concept is utilizing the appearance of independent coffee shops with the efficiency of large brands.
+          <br /><br />
+          2021
 				</p>
 			</div>
 		</div>

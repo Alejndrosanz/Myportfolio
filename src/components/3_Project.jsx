@@ -25,7 +25,11 @@ function Project3() {
 				<hr className="Line4" />
 				<h1 className="Tittle3">Supper-club</h1>
 				<p className="Text3">
-				Anxiety is the restless nights, the feeling of being lonely, the monster whose task is feeding itself with our worst fears. It's your brain never being able to shut off.
+				Web app for users to create and showcase their supper club events, as well as to book and purchase tickets to different supper clubs. <br />
+        This project serves as part of one of the final projects of LeWagon bootcamp (Airbnb clone) which was built in a week time by a group of four.
+        <br/> Led and managed the front end design and participated on the full stack development of the site .<br/>
+        <br/>
+        2023
 				</p>
 			</div>
 		</div>
